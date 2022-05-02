@@ -52,7 +52,7 @@ class _MyHomePageState extends State<MyHomePage> {
       body: SafeArea(
         child: Builder(builder: (BuildContext context){
           return WebView(
-            initialUrl: '',
+            initialUrl: 'http://49.50.160.115/',
             javascriptMode: JavascriptMode.unrestricted,
             onWebViewCreated: (WebViewController webViewController){
               _controller.complete(webViewController);
